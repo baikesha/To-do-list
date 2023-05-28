@@ -1,0 +1,140 @@
+body {
+  background-color: #F1F1F1;
+  width: 1440px;
+}
+
+.App {
+  text-align: start;
+  margin-left: 67px;
+}
+
+.title {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  margin-top: 100px;
+  margin-left: 13px;
+}
+
+.description {
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 24px;
+  margin-bottom: 102px;
+  margin-left: 13px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(0deg, rgba(8, 30, 52, 0.05), rgba(8, 30, 52, 0.05)), #F0F0F0;
+  border-radius: 100px;
+  padding: 8px 24px;
+  gap: 8px;
+  width: 87px;
+  height: 40px; 
+  border: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.buttonWrapper {
+  display: flex;
+  margin-left: 13px;
+}
+
+.movetoTrash {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px 0px 12px 4px;
+  gap: 10px;
+  width: 240px;
+  height: 48px;
+  left: 56px;
+  top: 658px;
+  background: #E4E6E7;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+  border-radius: 12px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  border: none;
+}
+
+.titleStatus {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 60px;
+  margin-left: 13px;
+  margin-bottom: 24px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid black;
+  opacity: 0.2;
+  margin-bottom: 28px;
+  margin-left: 13px;
+  width: 1280px;
+  height: 2px;
+}
+
+.onClick {
+  margin-right: 14.5px;
+}
+
+.checkbox {
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+  left: 4px;
+  top: 4px;
+  border: 1.4px solid #AEAEAE;
+  border-radius: 4px;
+  margin-right: 12px;
+}
+
+  .endTitle {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 13px;
+  margin-right: 13px;
+  margin-top: 234px;
+  }
+
+  .title01 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  }
+
+  .title02 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  opacity: 0.5;
+  }
+
+  .completed {
+    text-decoration: line-through;
+  }
+
+  
